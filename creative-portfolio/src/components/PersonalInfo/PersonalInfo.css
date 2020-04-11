@@ -1,13 +1,13 @@
 .personal-main-info-div {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
 }
 
 .personal-info-div {
     width: 100%;
-    min-height: 90%;
+    height: 100%;
 }
 
 .info-div {
@@ -26,7 +26,7 @@
 .value-h2,
 .key-h3{
     display: flex;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     text-align: center;
     justify-content: center;
@@ -37,7 +37,6 @@
     justify-content: flex-end;
     font-size: 20px;
     width: 50%;
-    padding-left: 10%;
 }
 .value-h2 {
     display: flex;
@@ -46,6 +45,4 @@
     font-size: 30px;
     font-weight: bold;
     margin-left: 50px;
-    padding-right: 10%;
-
 }

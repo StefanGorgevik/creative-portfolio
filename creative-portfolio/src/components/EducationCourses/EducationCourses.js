@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
 import './EducationCourses.css'
 import '../shared.css'
 
@@ -18,7 +17,10 @@ function EducationCourses(props) {
                             between the handlers of the back-end and the UI in the front end. During the whole year, I have learned
                             Javascript, DOM,ReactJS, NodeJS and MongoDB, altogether with multiple libraries.
                         </h4>
-                        <Link to="//stark-island-29614.herokuapp.com/"><button className="visit-btn">Visit the project</button></Link>
+                        <a href="https://stark-island-29614.herokuapp.com" 
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button className="visit-btn">Visit the project</button></a>
                 </div>
                 <div className="courses-div">
                     <h1>Courses</h1>
