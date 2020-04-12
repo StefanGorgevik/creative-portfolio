@@ -1,5 +1,6 @@
 import React from 'react'
 import './Project.css'
+import Button from '../../Button/Button'
 
 export default function Project(props) {
     return (
@@ -9,11 +10,7 @@ export default function Project(props) {
                         {props.info}
                         {props.extra ? <p className="extra-info-p">{props.extra}</p> : null}
                     </p>
-                    
-                    <a href={props.url}
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        <button className="visit-btn">Visit the project</button></a>
+                    <Button url={props.url}/>
             </div>
     )
 }

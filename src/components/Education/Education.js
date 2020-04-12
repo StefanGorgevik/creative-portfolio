@@ -1,8 +1,9 @@
 import React from 'react'
 import './Education.css'
 import '../shared.css'
+import Button from '../Button/Button'
 
-function Education() {
+function Education(props) {
     return (
         <div className="education-main-div">
             <h1 className="about-me-divs-title">Education</h1>
@@ -15,10 +16,7 @@ function Education() {
                             between the handlers of the back-end and the UI in the front end. During the course that lasted aproximately 1 year,
                             I have acknowledged skills with languages and frameworks such as Javascript, DOM,ReactJS, NodeJS and MongoDB, altogether with multiple libraries.
                         </h4>
-                        <a href="https://stark-island-29614.herokuapp.com" 
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        <button className="visit-btn">Visit the project</button></a> 
+                        <Button url="https://stark-island-29614.herokuapp.com" />
             </div>
         </div>
     )

@@ -5,3 +5,23 @@
     padding: 20px;
     letter-spacing: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-me-divs-title {
+        margin: 15px auto;
+        min-height: 10%;
+        font-size: 45px;
+        padding: 15px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .about-me-divs-title {
+        margin: 10px auto;
+        min-height: 10%;
+        font-size: 40px;
+        padding: 10px;
+        letter-spacing: 5px;
+        border-bottom: 1px dashed white;
+    }
+}

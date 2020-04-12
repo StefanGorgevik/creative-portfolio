@@ -1,15 +1,20 @@
 .education-main-div {
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    width: 50%;
+    width: 100%;
     color: white;
+    justify-content: center;
 }
 
 .education-div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 100%;
+    width: 70%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .education-div h3{
@@ -19,7 +24,7 @@
 .education-div p{
     font-size: 20px;
     margin: 0 auto;
-    width: 40%;
+    width: 100%;
     border-bottom: 1px dotted grey;
 }
 
@@ -28,7 +33,6 @@
     font-size: 20px;
     margin: 30px auto;
     font-weight: 400;
-    height: 50%;
 }
 
 .education-div:hover {
@@ -37,27 +41,48 @@
 }
 
 
-@media screen and (max-width: 1130px) {  
-    .education-courses-main-div {
-        flex-direction: column;
+@media screen and (max-width: 2030px) {  
+    .education-main-div {
+        height: 100vh;
+    }
+    .education-main-div h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1530px) {  
+    .education-main-div {
         height: 100%;
     }
-    .education-courses-div  {
-        flex-direction: column;
-        justify-content: center;
+    .education-div  {
+        height: 100%;
     }
-    .education-courses-div div {
-        width: 100%;
-        height: 95%;
+    .education-main-div h4{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1230px) {  
+    .education-main-div {
+        flex-direction: column;
+        min-height: 100%;
+    }
+    .education-div  {
+        width: 50%;
+        height: 100%;
+    }
+    .education-main-div h4{
+        font-size: 22px;
     }
 }
 
 
 @media screen and (max-width: 700px) {  
-    .projects-main-div{
+    .education-main-div {
         flex-direction: column;
+        height: 100%;
     }
-    .projects-div {
-        flex-direction: column;
+    .education-main-div h4{
+        font-size: 18px;
     }
 }

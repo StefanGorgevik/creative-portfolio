@@ -48,9 +48,27 @@
     font-size: 25px;
 }
 
-
-
 .fa-circle-notch {
     font-size: 26px;
     height: 100%;
+}
+
+
+@media screen and (max-width: 1230px) {  
+    .technical-skills-div {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .ul-div {
+        flex-direction: column;
+    }
+    .ul-div ul{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 730px) {  
+  
 }
