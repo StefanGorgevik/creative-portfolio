@@ -24,18 +24,19 @@
 
 .ul-div ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
     justify-content: flex-start;
     width: 60%;
     padding-left: 10%;
+    flex-grow: 1;
 }
 .ul-div ul li {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: white;
-    padding: 1%;
+    padding: 2%;
 }
 
 .ul-div-h1{
@@ -43,7 +44,7 @@
     color: white;
     justify-content: flex-start;
     margin-right: 100px;
-    width: 40%;
+    width: 30%;
     font-size: 25px;
 }
 

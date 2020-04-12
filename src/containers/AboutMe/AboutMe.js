@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
         super(props)
         this.state = {
             divs: ["Personal Info", "Education & Courses", "Technical Skills", "Projects"],
-            hoveredDiv: ''
+            hoveredDiv: 'Personal Info'
         }
     }
 
@@ -19,6 +19,7 @@ class AboutMe extends React.Component {
         this.setState({
             hoveredDiv: div
         })
+        console.log(this.state.hoveredDiv)
     }
 
     renderSwitch() {

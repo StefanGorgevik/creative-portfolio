@@ -35,3 +35,9 @@
     height: 80%;
     width: 80%;
 }
+
+.extra-info-p {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}

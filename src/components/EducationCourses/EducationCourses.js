@@ -14,8 +14,8 @@ function EducationCourses(props) {
                         <h4>
                             I have worked and understood the connection between the front-end and the back-end when it comes to developing
                             a web application, including the architectural pattern MVC. I have a good understanding of the communication
-                            between the handlers of the back-end and the UI in the front end. During the whole year, I have learned
-                            Javascript, DOM,ReactJS, NodeJS and MongoDB, altogether with multiple libraries.
+                            between the handlers of the back-end and the UI in the front end. During the course that lasted aproximately 1 year,
+                            I have acknowledged skills with languages and frameworks such as Javascript, DOM,ReactJS, NodeJS and MongoDB, altogether with multiple libraries.
                         </h4>
                         <a href="https://stark-island-29614.herokuapp.com" 
                         target="_blank"
