@@ -14,3 +14,25 @@
     color: white;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 1130px) {  
+    .about-me-main-div {
+        flex-direction: column;
+        height:95%;
+    }
+    .projects-div {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 700px) {  
+    .about-me-main-div {
+        height: 95%;
+        flex-direction: column;
+    }
+   
+  }
+
+  

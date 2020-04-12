@@ -46,3 +46,22 @@
     font-weight: bold;
     margin-left: 50px;
 }
+
+@media screen and (max-width: 700px) {  
+    .key-h3 {
+        font-size: 15px;
+    }
+    .info-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .personal-main-info-div {
+        display: flex;
+        flex-direction: row;
+    }
+}

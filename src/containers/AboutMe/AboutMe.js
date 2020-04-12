@@ -1,7 +1,8 @@
 import React from 'react'
 import './AboutMe.css'
 import AboutMeHeader from '../../components/AboutMeHeader/AboutMeHeader'
-import EducationCourses from '../../components/EducationCourses/EducationCourses'
+import Education from '../../components/Education/Education'
+import Courses from '../../components/Courses/Courses'
 import PersonalInfo from '../../components/PersonalInfo/PersonalInfo'
 import TechnicalSkills from '../../components/TechnicalSkills/TechnicalSkills'
 import Projects from '../../components/Projects/Projects'
@@ -10,7 +11,7 @@ class AboutMe extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            divs: ["Personal Info", "Education & Courses", "Technical Skills", "Projects"],
+            divs: ["Personal Info", "Education", "Courses", "Technical Skills", "Projects"],
             hoveredDiv: 'Personal Info'
         }
     }
@@ -26,8 +27,10 @@ class AboutMe extends React.Component {
         switch (this.state.hoveredDiv) {
             case 'Personal Info':
                 return <PersonalInfo/>;
-            case 'Education & Courses':
-                return <EducationCourses/>;
+            case 'Education':
+                return <Education/>;
+            case 'Courses':
+                return <Courses/>;
             case 'Technical Skills':
                 return <TechnicalSkills/>;
             case 'Projects':

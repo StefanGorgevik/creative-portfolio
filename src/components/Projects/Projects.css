@@ -1,7 +1,7 @@
 .projects-main-div {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
 }
 
@@ -13,21 +13,41 @@
 }
 
 .visit-btn {
-    width: 300px;
+    width: 100%;
     height: 60px;
     font-size: 28px;
-    margin: 10px 20px;
-    margin-top: 20px;
+    margin: 10px auto;
+    margin-top: 10px;
     background-color: transparent;
     border: 1px solid whitesmoke;
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    padding: 0 5px;
 }
 
 .visit-btn:hover {
-    background-color: #103546;
+    background-color: #808588a6;
     font-size: 30px;
-    width: 305px;
 }
 
+
+@media screen and (max-width: 1130px) {  
+    .projects-main-div {
+        flex-direction: column;
+        height: 100%;
+    }
+    .projects-div {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 700px) {  
+    .projects-main-div{
+        flex-direction: column;
+    }
+    .projects-div {
+        flex-direction: column;
+    }
+}
