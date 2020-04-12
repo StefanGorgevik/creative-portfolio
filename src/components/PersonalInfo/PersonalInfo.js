@@ -9,17 +9,15 @@ function PersonalInfo(props) {
     const infoDivs = keys.map((key, i) => {
         return (
             <div key={key + i} className="info-div">
-                <h3 className="key-h3">{key}</h3>
-                <h2 className="value-h2">{values[i]}</h2>
+                <p className="key">{key}</p>
+                <p className="value">{values[i]}</p>
             </div>
         )
     })
     return (
         <div className="personal-main-info-div">
             <h1 className="about-me-divs-title">Personal Info</h1>
-            <div className="personal-info-div" >
                 {infoDivs}
-            </div>
         </div>
     )
 }

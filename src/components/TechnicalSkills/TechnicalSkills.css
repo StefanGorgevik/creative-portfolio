@@ -15,6 +15,7 @@
     margin-bottom: 20px;
     border: 1px dotted rgba(245, 245, 245, 0.335);
     min-height: 10%;
+    list-style: circle;
 }
 
 .ul-div:hover {
@@ -30,6 +31,8 @@
     width: 60%;
     padding-left: 10%;
     flex-grow: 1;
+    list-style: circle;
+
 }
 .ul-div ul li {
     display: flex;
@@ -37,6 +40,8 @@
     font-size: 20px;
     color: white;
     padding: 2%;
+    list-style: circle;
+
 }
 
 .ul-div-h1{
@@ -89,4 +94,9 @@
         width: 100%;
         font-size: 25px;
     }
+}
+
+.try {
+    border: 1.5px dashed rgba(255, 255, 255, 0.418);
+    border-radius: 15px;
 }
