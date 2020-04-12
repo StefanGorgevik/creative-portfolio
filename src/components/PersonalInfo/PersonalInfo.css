@@ -12,6 +12,7 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    
 }
 .info-div:hover {
     border: 1px dotted rgba(245, 245, 245, 0.335);
@@ -21,8 +22,8 @@
 .value,
 .key{
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
     justify-content: center;
 }

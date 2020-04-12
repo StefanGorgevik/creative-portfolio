@@ -19,9 +19,10 @@
     .about-me-divs-title {
         margin: 10px auto;
         min-height: 10%;
-        font-size: 40px;
-        padding: 10px;
+        font-size: 25px;
+        padding: 10px 0;
         letter-spacing: 5px;
+        width: 100%;
         border-bottom: 1px dashed white;
     }
 }

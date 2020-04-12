@@ -61,3 +61,15 @@
         font-size: 20px;
     }
 }
+@media screen and (max-width: 730px) {  
+    .about-me-header-ul-li {
+        
+        font-size: 14px;
+    }
+    .about-me-header-ul-li:hover {
+        color: white;
+        background-color: rgba(11, 35, 54, 0.664);
+        border-radius: 15px;
+        font-size: 15px;
+    }
+}
