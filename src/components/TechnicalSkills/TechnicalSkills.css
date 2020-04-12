@@ -70,5 +70,23 @@
 
 
 @media screen and (max-width: 730px) {  
-  
+    .ul-div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ul-div ul{
+        flex-direction: column;
+    }
+    .ul-div ul li{
+        text-align: center;
+        margin: 0 25px;
+    }
+
+    .ul-div-h1{
+        margin: 0 auto;
+        color: white;
+        justify-content: flex-start;
+        width: 100%;
+        font-size: 25px;
+    }
 }
