@@ -18,8 +18,7 @@ function Projects(props) {
                     It is a type of social media where you can keep track of your diet and workout plan, and you can see other users' diets, 
                     workout plans,and personal info. Photo upload mode was created with the help of Cloudinary and 
                      the project is deployed on Heroku."
-                    url="https://bodybuildingmedia.herokuapp.com" 
-                    extra="!Upload photo is still not available. I am currently working on it! "/>
+                    url="https://bodybuildingmedia.herokuapp.com" />
                 <Project name="Movie Database"
                     info="Front-end developed project, created with ReactJS. For the UI, I used plain HTML and
                             CSS. It is a small front-end project where I used a prepared API, but the information was limited, 
