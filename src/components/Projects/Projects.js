@@ -13,9 +13,11 @@ function Projects(props) {
                             by Semos Education. I also included a user info page and the option to add another user and merge both of your products."
                     url="https://stark-island-29614.herokuapp.com" />
                 <Project name="BodyBuildingMedia - Version 1"
-                    info="Full-stack developed project, created with ReactJS, Node.js, and MongoDB. For the UI, I used plain HTML and
-                            CSS. It is a type of social media where you can keep track of diet and workout plan, and you can see other users' 
-                            diets, workout plans and personal info. Updated version is coming up."
+                    info="The first version of a bodybuilding social media, which is a full-stack developed project, 
+                    created with ReactJS, Node.js, and MongoDB. It is a responsive website and for UI, I used plain HTML and CSS. 
+                    It is a type of social media where you can keep track of your diet and workout plan, and you can see other users' diets, 
+                    workout plans,and personal info. Photo upload mode was created with the help of Cloudinary and 
+                     the project is deployed on Heroku."
                     url="https://bodybuildingmedia.herokuapp.com" 
                     extra="!Upload photo is still not available. I am currently working on it! "/>
                 <Project name="Movie Database"
