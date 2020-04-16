@@ -19,6 +19,11 @@ function Projects(props) {
                     workout plans,and personal info. Photo upload mode was created with the help of Cloudinary and 
                      the project is deployed on Heroku."
                     url="https://bodybuildingmedia.herokuapp.com" />
+                <Project name="Budget Architect"
+                    info="Front-end, ReactJS project where you can save your products and also add a group of products.
+                     I used plain CSS and I am currently working on the back-end. This is the main idea of how the project would look like. 
+                     For deployment, I used Heroku."
+                    url="https://budgetarchitect.herokuapp.com/" />
                 <Project name="Movie Database"
                     info="Front-end developed project, created with ReactJS. For the UI, I used plain HTML and
                             CSS. It is a small front-end project where I used a prepared API, but the information was limited, 
