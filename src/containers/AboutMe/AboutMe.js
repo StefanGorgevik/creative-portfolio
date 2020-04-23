@@ -20,7 +20,6 @@ class AboutMe extends React.Component {
         this.setState({
             hoveredDiv: div
         })
-        console.log(this.state.hoveredDiv)
     }
 
     renderSwitch() {
