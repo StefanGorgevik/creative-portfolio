@@ -12,7 +12,7 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    
+    min-height: 6%;
 }
 .info-div:hover {
     border: 1px dotted rgba(245, 245, 245, 0.335);
