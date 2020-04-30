@@ -1,5 +1,6 @@
 .projects-main-div {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -7,9 +8,12 @@
 
 .projects-div {
     display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 60%;
+    overflow-y: scroll;
+    margin: 0 auto;
 }
 
 
@@ -31,5 +35,6 @@
     }
     .projects-div {
         flex-direction: column;
+            overflow-y: hidden;
     }
 }
